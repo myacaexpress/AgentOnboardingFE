@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "source": "hosting",
+    "source": ".",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -8,6 +8,31 @@
     ],
     "frameworksBackend": {
       "region": "us-central1"
-    }
+    },
+    "headers": [
+      {
+        "source": "**",
+        "headers": [
+          {
+            "key": "X-Frame-Options",
+            "value": "SAMEORIGIN"
+          },
+          {
+            "key": "X-Content-Type-Options",
+            "value": "nosniff"
+          },
+          {
+            "key": "Access-Control-Allow-Origin",
+            "value": "*"
+          }
+        ]
+      }
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
   }
 }

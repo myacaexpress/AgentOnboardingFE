@@ -494,13 +494,13 @@ export default function Home() {
             </div>
             <div className="email-body">
               <p><strong>Dear Shawn,</strong></p>
-              <p>Welcome to <strong>Agent Empowerment</strong> — we're excited to help you launch your live call campaign! To begin, please complete the form below so we can configure your campaign and send your invoice.</p>
+              <p>Welcome to <strong>Agent Empowerment</strong> — we&apos;re excited to help you launch your live call campaign! To begin, please complete the form below so we can configure your campaign and send your invoice.</p>
               <p><span className="email-check">✅</span> <strong>Step 1: Fill Out Your Onboarding Form</strong></p>
               <p>👉 <a href="#" className="email-link">Click Here to Complete</a></p>
               <p>Once you submit the form:</p>
               <ol style={{marginLeft: '20px'}}>
-                <li>You'll receive an <strong>invoice for your system setup</strong> ($99 - Kixie dialer)</li>
-                <li>After payment, we'll activate your setup within <strong>1-2 business days</strong></li>
+                <li>You&apos;ll receive an <strong>invoice for your system setup</strong> ($99 - Kixie dialer)</li>
+                <li>After payment, we&apos;ll activate your setup within <strong>1-2 business days</strong></li>
               </ol>
             </div>
           </div>
@@ -537,7 +537,7 @@ export default function Home() {
             </div>
             <div className="email-body">
               <p><strong>Dear Shawn,</strong></p>
-              <p>Welcome! Your <strong>live call campaign is being created</strong>, and you'll begin receiving inbound Final Expense and Life Insurance calls within the next <strong>3-5 business days</strong>.</p>
+              <p>Welcome! Your <strong>live call campaign is being created</strong>, and you&apos;ll begin receiving inbound Final Expense and Life Insurance calls within the next <strong>3-5 business days</strong>.</p>
               <p><span className="email-check">✅</span> <strong>Install Kixie Chrome Extension</strong></p>
               <p>👉 <a href="#" className="email-link">chrome.google.com/webstore/detail/kixie-powercall-sales-dial/</a></p>
               <p><span className="email-check">✅</span> <strong>Login Credentials</strong></p>
@@ -545,7 +545,7 @@ export default function Home() {
                 <li>Email: <strong>Your email</strong></li>
                 <li>Password: <code style={{background: '#f0f0f0', padding: '2px 6px', borderRadius: '4px'}}>Leads123@@</code></li>
               </ul>
-              <p><span className="email-check">✅</span> <strong>Set Your Status to "Available"</strong></p>
+              <p><span className="email-check">✅</span> <strong>Set Your Status to &quot;Available&quot;</strong></p>
               <p style={{background: '#fff3cd', borderLeft: '4px solid #ffc107', padding: '10px', margin: '10px 0'}}>
                 <strong>⚠️ You must be marked Available in BOTH Kixie AND Agent Empowerment (AgentEmp Go-High-Level CRM) to receive calls.</strong>
               </p>
@@ -576,7 +576,7 @@ export default function Home() {
               <div className="step-icon">📞</div>
               <h3>Log in to Kixie</h3>
               <p>Open the Kixie PowerCall Chrome extension</p>
-              <p style={{marginTop: '10px'}}><strong>Set status to "Available"</strong></p>
+              <p style={{marginTop: '10px'}}><strong>Set status to &quot;Available&quot;</strong></p>
             </div>
 
             <div className="step-card">
@@ -591,8 +591,8 @@ export default function Home() {
               <div className="step-number-badge">3</div>
               <div className="step-icon">🟢</div>
               <h3>Set Availability to Online</h3>
-              <p>Click "Calls Availability" in left menu</p>
-              <p style={{marginTop: '10px'}}><strong>Toggle status to "Online"</strong></p>
+              <p>Click &quot;Calls Availability&quot; in left menu</p>
+              <p style={{marginTop: '10px'}}><strong>Toggle status to &quot;Online&quot;</strong></p>
             </div>
           </div>
         </div>
@@ -651,7 +651,7 @@ export default function Home() {
 
           <p style={{textAlign: 'center', marginTop: '30px', fontSize: '18px', color: '#666'}}>
             <strong>These are real consumers</strong> calling from our high-converting online ads.<br/>
-            You're not chasing cold leads — you're responding to demand.
+            You&apos;re not chasing cold leads — you&apos;re responding to demand.
           </p>
         </div>
       </div>
