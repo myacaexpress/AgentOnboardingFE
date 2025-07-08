@@ -58,7 +58,7 @@ export default function Home() {
               <h3>⚡ Setup Process</h3>
               <ul className="checklist">
                 <li>Complete onboarding form</li>
-                <li>Receive invoice for system setup ($99)</li>
+                <li>Receive invoice for system setup ($100)</li>
                 <li>Account creation across all platforms</li>
                 <li>Receive login credentials within 1-2 days</li>
               </ul>
@@ -87,7 +87,7 @@ export default function Home() {
               <p>👉 <a href="#" className="email-link">Click Here to Complete</a></p>
               <p>Once you submit the form:</p>
               <ol style={{marginLeft: '20px'}}>
-                <li>You&apos;ll receive an <strong>invoice for your system setup</strong> ($99 - Kixie dialer)</li>
+                <li>You&apos;ll receive an <strong>invoice for your system setup</strong> ($100 - Kixie dialer)</li>
                 <li>After payment, we&apos;ll activate your setup within <strong>1-2 business days</strong></li>
               </ol>
             </div>
@@ -98,7 +98,7 @@ export default function Home() {
             <div className="billing-grid">
               <div className="billing-item">
                 <div className="billing-label">Setup Fee</div>
-                <div className="billing-amount">$99</div>
+                <div className="billing-amount">$100</div>
                 <div className="billing-label">Kixie Dialer</div>
               </div>
               <div className="billing-item">
