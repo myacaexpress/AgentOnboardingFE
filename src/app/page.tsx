@@ -22,17 +22,108 @@ export default function Home() {
         </div>
 
         {/* Educational Video - Top Priority */}
-        <div className="process-section" style={{background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', color: 'white', marginBottom: '40px', padding: '30px'}}>
-          <h2 style={{color: 'white', textAlign: 'center', marginBottom: '20px'}}>🎬 REQUIRED: Watch This Setup Tutorial First</h2>
-          <div style={{textAlign: 'center'}}>
-            <div style={{background: 'rgba(255,255,255,0.1)', border: '2px solid rgba(255,255,255,0.3)', borderRadius: '16px', padding: '25px 40px', maxWidth: '600px', margin: '0 auto'}}>
-              <div style={{fontSize: '48px', marginBottom: '15px'}}>▶️</div>
-              <h3 style={{fontSize: '20px', marginBottom: '10px', color: 'white'}}>Complete Agent Setup Tutorial</h3>
-              <p style={{fontSize: '14px', marginBottom: '20px', opacity: '0.9'}}>Learn how to set up Kixie, Agent Empowerment CRM, and start receiving calls • 10 minutes</p>
-              <a href="https://www.loom.com/share/2449c17c78184071a7faf663c143cd35" target="_blank" style={{display: 'inline-block', background: 'white', color: '#5865f2', padding: '15px 40px', borderRadius: '30px', fontSize: '16px', fontWeight: '600', textDecoration: 'none', transition: 'all 0.3s ease', boxShadow: '0 4px 15px rgba(0,0,0,0.2)'}}>
+        <div className="process-section video-tutorial-section">
+          <h2 className="video-tutorial-title">🎬 REQUIRED: Watch This Setup Tutorial First</h2>
+          <div className="video-tutorial-container">
+            <div className="video-tutorial-card">
+              <div className="video-tutorial-icon">▶️</div>
+              <h3 className="video-tutorial-heading">Complete Agent Setup Tutorial</h3>
+              <p className="video-tutorial-description">Learn how to set up Kixie, Agent Empowerment CRM, and start receiving calls • 10 minutes</p>
+              <a href="https://www.loom.com/share/2449c17c78184071a7faf663c143cd35" target="_blank" className="video-tutorial-button">
                 Watch Video Tutorial
               </a>
             </div>
+          </div>
+        </div>
+
+        {/* Sample Call Examples Section */}
+        <div className="process-section sample-calls-section">
+          <h2 className="sample-calls-title">🎧 Listen to Successful Call Examples</h2>
+          <p className="sample-calls-description">
+            Learn from real successful calls with actual customers. These examples will help you understand tone, pacing, and effective sales techniques.
+          </p>
+          
+          <div className="sample-calls-grid">
+            <div className="sample-call-card">
+              <h4 className="sample-call-title">📞 Sample Call #1</h4>
+              <iframe 
+                src="https://drive.google.com/file/d/1dJN5DmbEbq8_mT3P0pEeevBqSfEsRrxA/preview" 
+                className="sample-call-iframe"
+                allow="autoplay"
+              ></iframe>
+            </div>
+
+            <div className="sample-call-card">
+              <h4 className="sample-call-title">📞 Sample Call #2</h4>
+              <iframe 
+                src="https://drive.google.com/file/d/1Tyey_wAiI1b9oXon_VJtSOQRVBONzVJM/preview" 
+                className="sample-call-iframe"
+                allow="autoplay"
+              ></iframe>
+            </div>
+
+            <div className="sample-call-card">
+              <h4 className="sample-call-title">📞 Sample Call #3</h4>
+              <iframe 
+                src="https://drive.google.com/file/d/1YUw1i5ViVC76UP9IaLIs8SDypkmnY22J/preview" 
+                className="sample-call-iframe"
+                allow="autoplay"
+              ></iframe>
+            </div>
+
+            <div className="sample-call-card">
+              <h4 className="sample-call-title">📞 Sample Call #4</h4>
+              <iframe 
+                src="https://drive.google.com/file/d/14_looFQS0pyNzgz9TRKBZoxGZnqKMlkZ/preview" 
+                className="sample-call-iframe"
+                allow="autoplay"
+              ></iframe>
+            </div>
+
+            <div className="sample-call-card">
+              <h4 className="sample-call-title">📞 Sample Call #5</h4>
+              <iframe 
+                src="https://drive.google.com/file/d/1eGCm-VmqHi5VPR9c9McwalXsAf4k9b7e/preview" 
+                className="sample-call-iframe"
+                allow="autoplay"
+              ></iframe>
+            </div>
+
+            <div className="sample-call-card">
+              <h4 className="sample-call-title">📞 Sample Call #6</h4>
+              <iframe 
+                src="https://drive.google.com/file/d/13UeHSv0OKA8Z4sw9FzbBcuLe1iliU8hU/preview" 
+                className="sample-call-iframe"
+                allow="autoplay"
+              ></iframe>
+            </div>
+
+            <div className="sample-call-card">
+              <h4 className="sample-call-title">📞 Sample Call #7</h4>
+              <iframe 
+                src="https://drive.google.com/file/d/1xgwwfDkqxXkOD3dRyPGNsteCaYPsYr50/preview" 
+                className="sample-call-iframe"
+                allow="autoplay"
+              ></iframe>
+            </div>
+
+            <div className="sample-call-card">
+              <h4 className="sample-call-title">📞 Sample Call #8</h4>
+              <iframe 
+                src="https://drive.google.com/file/d/1aJAmVnQyxlBXCywAoyfAQDjSHyz6kI76/preview" 
+                className="sample-call-iframe"
+                allow="autoplay"
+              ></iframe>
+            </div>
+          </div>
+
+          <div className="sample-calls-tip">
+            <p className="sample-calls-tip-text">
+              💡 <strong>Pro Tip:</strong> Listen to how agents build rapport, handle objections, and guide customers toward a decision.
+            </p>
+            <p className="sample-calls-tip-subtext">
+              These are real calls from successful agents - use them as your blueprint for success!
+            </p>
           </div>
         </div>
 
@@ -257,6 +348,54 @@ export default function Home() {
             <strong>These are real consumers</strong> calling from our high-converting online ads.<br/>
             You&apos;re not chasing cold leads — you&apos;re responding to demand.
           </p>
+        </div>
+
+        {/* Script Resources Section */}
+        <div className="process-section script-resources-section">
+          <h2 className="script-resources-title">📋 Agent Script Resources</h2>
+          <p className="script-resources-description">
+            Use these proven scripts as your guide during calls. Reference them alongside the sample call recordings above.
+          </p>
+
+          <div className="script-resources-grid">
+            
+            {/* FEX Script */}
+            <div className="script-resource-card">
+              <div className="script-resource-icon">📞</div>
+              <h3 className="script-resource-heading">FEX Script Version OC24</h3>
+              <p className="script-resource-description">Complete call opening and qualification script with step-by-step conversation flow</p>
+              <a 
+                href="https://docs.google.com/document/d/1_jRbhvElrUBePuscowpppIxkS5LeeXFlNStktnfdRZ0/edit?usp=sharing"
+                target="_blank"
+                className="script-resource-button"
+              >
+                📄 View FEX Script
+              </a>
+            </div>
+
+            {/* Presentation Script */}
+            <div className="script-resource-card">
+              <div className="script-resource-icon">🎯</div>
+              <h3 className="script-resource-heading">Presentation Script & Framework</h3>
+              <p className="script-resource-description">Comprehensive sales methodology covering Trust, Need, and Urgency with detailed qualification questions</p>
+              <a 
+                href="https://docs.google.com/document/d/1MNadIVd-9Vd-ae6GVZWMgITAK8PLo3IVNGknrAfTry4/edit?usp=sharing"
+                target="_blank"
+                className="script-resource-button"
+              >
+                📄 View Presentation Script
+              </a>
+            </div>
+          </div>
+
+          <div className="script-resources-tip">
+            <p className="script-resources-tip-text">
+              💡 <strong>How to Use These Scripts:</strong> These are frameworks, not word-for-word requirements. Adapt the language to your natural speaking style while maintaining the structure and key points.
+            </p>
+            <p className="script-resources-tip-subtext">
+              Listen to the sample calls above to hear how successful agents use these scripts in real conversations!
+            </p>
+          </div>
         </div>
       </div>
 

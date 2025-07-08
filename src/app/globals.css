@@ -404,16 +404,697 @@ p, div, span {
   color: #1e293b !important;
 }
 
+/* Video Tutorial Section */
+.video-tutorial-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  color: white !important;
+  margin-bottom: 40px;
+  padding: 30px;
+}
+
+.video-tutorial-title {
+  color: white !important;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.video-tutorial-container {
+  text-align: center;
+}
+
+.video-tutorial-card {
+  background: rgba(255,255,255,0.1);
+  border: 2px solid rgba(255,255,255,0.3);
+  border-radius: 16px;
+  padding: 25px 40px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.video-tutorial-icon {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.video-tutorial-heading {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: white !important;
+}
+
+.video-tutorial-description {
+  font-size: 14px;
+  margin-bottom: 20px;
+  opacity: 0.9;
+  color: white !important;
+}
+
+.video-tutorial-button {
+  display: inline-block;
+  background: white;
+  color: #5865f2;
+  padding: 15px 40px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.video-tutorial-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+}
+
+/* Sample Calls Section */
+.sample-calls-section {
+  background: linear-gradient(135deg, #28a745 0%, #20c997 100%) !important;
+  color: white !important;
+  margin-bottom: 40px;
+  padding: 30px;
+}
+
+.sample-calls-title {
+  color: white !important;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sample-calls-description {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 30px;
+  opacity: 0.9;
+  color: white !important;
+}
+
+.sample-calls-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sample-call-card {
+  background: rgba(255,255,255,0.1);
+  border: 2px solid rgba(255,255,255,0.3);
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.sample-call-title {
+  color: white !important;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.sample-call-iframe {
+  width: 100%;
+  height: 60px;
+  border: none;
+  border-radius: 8px;
+}
+
+.sample-calls-tip {
+  text-align: center;
+  margin-top: 25px;
+  padding: 20px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 12px;
+  max-width: 600px;
+  margin: 25px auto 0;
+}
+
+.sample-calls-tip-text {
+  font-size: 14px;
+  margin-bottom: 10px;
+  opacity: 0.9;
+  color: white !important;
+}
+
+.sample-calls-tip-subtext {
+  font-size: 14px;
+  opacity: 0.8;
+  color: white !important;
+}
+
+/* Script Resources Section */
+.script-resources-section {
+  background: linear-gradient(135deg, #6f42c1 0%, #e83e8c 100%) !important;
+  color: white !important;
+  margin-bottom: 40px;
+  padding: 30px;
+}
+
+.script-resources-title {
+  color: white !important;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.script-resources-description {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 30px;
+  opacity: 0.9;
+  color: white !important;
+}
+
+.script-resources-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.script-resource-card {
+  background: rgba(255,255,255,0.1);
+  border: 2px solid rgba(255,255,255,0.3);
+  border-radius: 16px;
+  padding: 25px;
+  text-align: center;
+}
+
+.script-resource-icon {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.script-resource-heading {
+  color: white !important;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.script-resource-description {
+  font-size: 14px;
+  margin-bottom: 20px;
+  opacity: 0.9;
+  color: white !important;
+}
+
+.script-resource-button {
+  display: inline-block;
+  background: white;
+  color: #6f42c1;
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.script-resource-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+}
+
+.script-resources-tip {
+  text-align: center;
+  margin-top: 25px;
+  padding: 20px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 12px;
+  max-width: 800px;
+  margin: 25px auto 0;
+}
+
+.script-resources-tip-text {
+  font-size: 14px;
+  margin-bottom: 10px;
+  opacity: 0.9;
+  color: white !important;
+}
+
+.script-resources-tip-subtext {
+  font-size: 14px;
+  opacity: 0.8;
+  color: white !important;
+}
+
+/* Mobile Responsive Styles */
 @media (max-width: 768px) {
+  .header {
+    margin: 20px 0 15px 0;
+    gap: 10px;
+  }
+
+  .header-text {
+    font-size: 14px;
+  }
+
+  .logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .main-container {
+    padding: 0 15px;
+  }
+
+  .hero-section {
+    margin-bottom: 40px;
+  }
+
   h1 {
-    font-size: 36px;
+    font-size: 28px;
+    margin-bottom: 15px;
+    line-height: 1.3;
+  }
+
+  .subtitle {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  .hero-cta {
+    padding: 15px 30px;
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 24px;
   }
 
   .process-section {
-    padding: 30px 20px;
+    padding: 25px 15px;
+    margin-bottom: 25px;
+  }
+
+  .section-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 25px;
+  }
+
+  .section-number {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
   }
 
   .info-grid, .step-cards, .performance-cards {
     grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .info-card {
+    padding: 20px;
+  }
+
+  .step-card {
+    padding: 20px;
+  }
+
+  .step-icon {
+    font-size: 36px;
+    margin-bottom: 15px;
+  }
+
+  .billing-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .billing-amount {
+    font-size: 32px;
+  }
+
+  .performance-card {
+    padding: 20px;
+  }
+
+  .metric-number {
+    font-size: 36px;
+  }
+
+  .email-preview {
+    margin: 20px 0;
+  }
+
+  .email-header {
+    padding: 12px 15px;
+  }
+
+  .email-subject {
+    font-size: 16px;
+  }
+
+  .email-body {
+    padding: 15px;
+    font-size: 13px;
+  }
+
+  .warning-box {
+    padding: 15px;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer {
+    padding: 30px 15px;
+  }
+
+  /* Video Tutorial Mobile Styles */
+  .video-tutorial-section {
+    padding: 20px 15px;
+    margin-bottom: 25px;
+  }
+
+  .video-tutorial-card {
+    padding: 20px 25px;
+  }
+
+  .video-tutorial-icon {
+    font-size: 36px;
+    margin-bottom: 12px;
+  }
+
+  .video-tutorial-heading {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+
+  .video-tutorial-description {
+    font-size: 13px;
+    margin-bottom: 18px;
+  }
+
+  .video-tutorial-button {
+    padding: 12px 25px;
+    font-size: 14px;
+  }
+
+  /* Sample Calls Mobile Styles */
+  .sample-calls-section {
+    padding: 20px 15px;
+    margin-bottom: 25px;
+  }
+
+  .sample-calls-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .sample-call-card {
+    padding: 15px;
+  }
+
+  .sample-call-title {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+
+  .sample-call-iframe {
+    height: 50px;
+  }
+
+  .sample-calls-tip {
+    padding: 15px;
+    margin: 20px auto 0;
+  }
+
+  .sample-calls-tip-text {
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+
+  .sample-calls-tip-subtext {
+    font-size: 13px;
+  }
+
+  /* Script Resources Mobile Styles */
+  .script-resources-section {
+    padding: 20px 15px;
+    margin-bottom: 25px;
+  }
+
+  .script-resources-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .script-resource-card {
+    padding: 20px;
+  }
+
+  .script-resource-icon {
+    font-size: 36px;
+    margin-bottom: 12px;
+  }
+
+  .script-resource-heading {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+
+  .script-resource-description {
+    font-size: 13px;
+    margin-bottom: 18px;
+  }
+
+  .script-resource-button {
+    padding: 12px 25px;
+    font-size: 14px;
+  }
+
+  .script-resources-tip {
+    padding: 15px;
+    margin: 20px auto 0;
+  }
+
+  .script-resources-tip-text {
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+
+  .script-resources-tip-subtext {
+    font-size: 13px;
+  }
+}
+
+/* Small mobile devices */
+@media (max-width: 480px) {
+  .header {
+    margin: 15px 0 10px 0;
+  }
+
+  .header-text {
+    font-size: 12px;
+  }
+
+  .logo {
+    width: 35px;
+    height: 35px;
+  }
+
+  .main-container {
+    padding: 0 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .subtitle {
+    font-size: 14px;
+  }
+
+  .hero-cta {
+    padding: 12px 25px;
+    font-size: 14px;
+  }
+
+  .section-cta {
+    padding: 12px 25px;
+    font-size: 14px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .process-section {
+    padding: 20px 10px;
+  }
+
+  .section-number {
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+  }
+
+  .info-card {
+    padding: 15px;
+  }
+
+  .step-card {
+    padding: 15px;
+  }
+
+  .billing-amount {
+    font-size: 28px;
+  }
+
+  .metric-number {
+    font-size: 28px;
+  }
+
+  .email-header {
+    padding: 10px 12px;
+  }
+
+  .email-subject {
+    font-size: 14px;
+  }
+
+  .email-body {
+    padding: 12px;
+    font-size: 12px;
+  }
+
+  /* Video Tutorial Small Mobile Styles */
+  .video-tutorial-section {
+    padding: 15px 10px;
+  }
+
+  .video-tutorial-card {
+    padding: 15px 20px;
+  }
+
+  .video-tutorial-icon {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+
+  .video-tutorial-heading {
+    font-size: 16px;
+    margin-bottom: 6px;
+  }
+
+  .video-tutorial-description {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+
+  .video-tutorial-button {
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+
+  /* Sample Calls Small Mobile Styles */
+  .sample-calls-section {
+    padding: 15px 10px;
+  }
+
+  .sample-calls-grid {
+    gap: 12px;
+  }
+
+  .sample-call-card {
+    padding: 12px;
+  }
+
+  .sample-call-title {
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+
+  .sample-call-iframe {
+    height: 45px;
+  }
+
+  .sample-calls-tip {
+    padding: 12px;
+    margin: 15px auto 0;
+  }
+
+  .sample-calls-tip-text {
+    font-size: 12px;
+    margin-bottom: 6px;
+  }
+
+  .sample-calls-tip-subtext {
+    font-size: 12px;
+  }
+
+  /* Script Resources Small Mobile Styles */
+  .script-resources-section {
+    padding: 15px 10px;
+  }
+
+  .script-resources-grid {
+    gap: 15px;
+  }
+
+  .script-resource-card {
+    padding: 15px;
+  }
+
+  .script-resource-icon {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+
+  .script-resource-heading {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .script-resource-description {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+
+  .script-resource-button {
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+
+  .script-resources-tip {
+    padding: 12px;
+    margin: 15px auto 0;
+  }
+
+  .script-resources-tip-text {
+    font-size: 12px;
+    margin-bottom: 6px;
+  }
+
+  .script-resources-tip-subtext {
+    font-size: 12px;
+  }
+}
+
+/* Tablet styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .main-container {
+    padding: 0 30px;
+  }
+
+  .process-section {
+    padding: 40px 30px;
+  }
+
+  .info-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .step-cards {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+
+  .performance-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .billing-grid {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   }
 }
