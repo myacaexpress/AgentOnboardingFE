@@ -183,7 +183,7 @@ export default function Home() {
               <p style={{marginTop: '10px'}}><strong>Toggle status to &quot;Online&quot; - This is done primarily in Agent EMP</strong></p>
               <div style={{marginTop: '15px', textAlign: 'center'}}>
                 <img 
-                  src="/agent-emp-calls-availability.png" 
+                  src="/availability button.png" 
                   alt="Agent EMP Calls Availability Button Location" 
                   style={{
                     maxWidth: '100%', 
