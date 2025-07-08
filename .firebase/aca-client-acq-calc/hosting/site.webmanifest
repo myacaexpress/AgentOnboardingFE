@@ -1,0 +1,24 @@
+{
+    "name": "Agent Empowerment - Insurance Agent Onboarding",
+    "short_name": "Agent EMP",
+    "icons": [
+        {
+            "src": "/favicon-16x16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        },
+        {
+            "src": "/favicon-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "/favicon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml"
+        }
+    ],
+    "theme_color": "#5865f2",
+    "background_color": "#e8ebf0",
+    "display": "standalone"
+}

@@ -13,11 +13,6 @@ export default function Home() {
 
       <div className="main-container">
         <div className="hero-section">
-          <svg className="hero-logo" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-            <ellipse cx="50" cy="50" rx="30" ry="15" fill="none" stroke="#ff6b6b" strokeWidth="3" transform="rotate(45 50 50)"/>
-            <ellipse cx="50" cy="50" rx="30" ry="15" fill="none" stroke="#ff6b6b" strokeWidth="3" transform="rotate(-45 50 50)"/>
-          </svg>
-          
           <h1>Welcome to Agent Empowerment</h1>
           <p className="subtitle">Get set up to receive high-quality inbound insurance calls</p>
           
