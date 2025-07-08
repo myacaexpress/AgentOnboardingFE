@@ -181,6 +181,22 @@ export default function Home() {
               <h3>Set Availability to Online in Agent EMP</h3>
               <p><strong>In Agent Empowerment:</strong> Click &quot;Calls Availability&quot; in left menu</p>
               <p style={{marginTop: '10px'}}><strong>Toggle status to &quot;Online&quot; - This is done primarily in Agent EMP</strong></p>
+              <div style={{marginTop: '15px', textAlign: 'center'}}>
+                <img 
+                  src="/agent-emp-calls-availability.png" 
+                  alt="Agent EMP Calls Availability Button Location" 
+                  style={{
+                    maxWidth: '100%', 
+                    height: 'auto', 
+                    border: '2px solid #ddd', 
+                    borderRadius: '8px',
+                    boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
+                  }} 
+                />
+                <p style={{fontSize: '12px', color: '#666', marginTop: '8px', fontStyle: 'italic'}}>
+                  Look for the red "Calls Availability" button in the left sidebar
+                </p>
+              </div>
             </div>
           </div>
         </div>
