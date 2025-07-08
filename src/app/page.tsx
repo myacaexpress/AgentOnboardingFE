@@ -135,7 +135,7 @@ export default function Home() {
               </ul>
               <p><span className="email-check">✅</span> <strong>Set Your Status to &quot;Available&quot;</strong></p>
               <p style={{background: '#fff3cd', borderLeft: '4px solid #ffc107', padding: '10px', margin: '10px 0'}}>
-                <strong>⚠️ You must be marked Available in BOTH Kixie AND Agent Empowerment (AgentEmp Go-High-Level CRM) to receive calls.</strong>
+                <strong>⚠️ CRITICAL LOGIN ORDER: Always login to Agent Empowerment (AgentEmp) FIRST, then Kixie. You must be marked Available in BOTH systems to receive calls.</strong>
               </p>
               <p style={{marginTop: '15px', fontStyle: 'italic', color: '#666'}}>Note: Ringba login credentials will be sent in a separate email.</p>
             </div>
@@ -152,35 +152,35 @@ export default function Home() {
           <div className="warning-box">
             <span className="warning-icon">⚠️</span>
             <div>
-              <strong>Important:</strong> Follow these steps in exact order. The sequence matters for proper API synchronization and call routing.
+              <strong>CRITICAL:</strong> ALWAYS login to Agent Empowerment (Agent EMP) FIRST, then Kixie. This exact sequence is essential for proper API synchronization and call routing.
               <br/><br/>
-              <strong>Critical:</strong> Use the SAME email address for all three platforms (Kixie, Agent Empowerment CRM, and Ringba) to ensure the systems are properly linked.
+              <strong>Important:</strong> Agent EMP must be your first login every day before accessing any other platform. Use the SAME email address for all three platforms (Agent EMP, Kixie, and Ringba) to ensure the systems are properly linked.
             </div>
           </div>
 
           <div className="step-cards">
             <div className="step-card">
               <div className="step-number-badge">1</div>
+              <div className="step-icon">💼</div>
+              <h3>🚨 FIRST: Log in to Agent Empowerment</h3>
+              <p><strong>ALWAYS START HERE!</strong> Access the CRM at crm.agentemp.com</p>
+              <p style={{marginTop: '10px'}}><strong>Use your provided credentials - This MUST be your first login</strong></p>
+            </div>
+
+            <div className="step-card">
+              <div className="step-number-badge">2</div>
               <div className="step-icon">📞</div>
-              <h3>Log in to Kixie</h3>
+              <h3>THEN: Log in to Kixie</h3>
               <p>Open the Kixie PowerCall Chrome extension</p>
               <p style={{marginTop: '10px'}}><strong>Set status to &quot;Available&quot;</strong></p>
             </div>
 
             <div className="step-card">
-              <div className="step-number-badge">2</div>
-              <div className="step-icon">💼</div>
-              <h3>Log in to Agent Empowerment</h3>
-              <p>Access the CRM at crm.agentemp.com</p>
-              <p style={{marginTop: '10px'}}><strong>Use your provided credentials</strong></p>
-            </div>
-
-            <div className="step-card">
               <div className="step-number-badge">3</div>
               <div className="step-icon">🟢</div>
-              <h3>Set Availability to Online</h3>
-              <p>Click &quot;Calls Availability&quot; in left menu</p>
-              <p style={{marginTop: '10px'}}><strong>Toggle status to &quot;Online&quot;</strong></p>
+              <h3>Set Availability to Online in Agent EMP</h3>
+              <p><strong>In Agent Empowerment:</strong> Click &quot;Calls Availability&quot; in left menu</p>
+              <p style={{marginTop: '10px'}}><strong>Toggle status to &quot;Online&quot; - This is done primarily in Agent EMP</strong></p>
             </div>
           </div>
         </div>
