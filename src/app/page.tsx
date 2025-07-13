@@ -18,13 +18,13 @@ export default function Home() {
           
           <div className="hero-cta-container">
             <div className="hero-step">
-              <div className="hero-step-number">1</div>
+              <div className="hero-step-text">Step 1</div>
               <a href="https://api.leadconnectorhq.com/widget/survey/XA49MJyuHMrPvgb2ZgLz" className="hero-cta">
                 Complete Onboarding Form
               </a>
             </div>
             <div className="hero-step">
-              <div className="hero-step-number">2</div>
+              <div className="hero-step-text">Step 2</div>
               <a href="https://my.openphone.com/signup?invite=369bc07b78cc85a544537baf8ec3b693" className="hero-cta openphone-cta" target="_blank">
                 Sign Up With OpenPhone
               </a>
