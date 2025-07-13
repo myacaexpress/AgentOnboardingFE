@@ -201,7 +201,7 @@ export default function Home() {
               <div className="billing-item">
                 <div className="billing-label">Setup Fee</div>
                 <div className="billing-amount">$100</div>
-                <div className="billing-label">OpenPhone Dialer</div>
+                <div className="billing-label">OpenPhone Dialer and CRM one time setup</div>
               </div>
               <div className="billing-item">
                 <div className="billing-label">Per Billable Call</div>
