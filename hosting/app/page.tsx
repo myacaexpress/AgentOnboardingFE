@@ -50,12 +50,6 @@ export default function Home() {
             margin-bottom: 80px;
         }
 
-        .hero-logo {
-            width: 120px;
-            height: 120px;
-            margin: 0 auto 30px;
-        }
-
         h1 {
             font-size: 48px;
             font-weight: 700;
@@ -68,6 +62,29 @@ export default function Home() {
             font-size: 20px;
             color: #64748b !important;
             margin-bottom: 40px;
+        }
+
+        .hero-cta-container {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            margin-top: 40px;
+            flex-wrap: wrap;
+        }
+
+        .hero-step {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .hero-step-text {
+            font-size: 24px;
+            font-weight: 700;
+            color: #5865f2;
+            margin-bottom: 5px;
+            text-align: center;
         }
 
         .hero-cta {
@@ -87,6 +104,16 @@ export default function Home() {
             background: #4752c4;
             transform: translateY(-2px);
             box-shadow: 0 8px 20px rgba(88, 101, 242, 0.4);
+        }
+
+        .openphone-cta {
+            background: #00d4aa !important;
+            box-shadow: 0 5px 15px rgba(0, 212, 170, 0.3) !important;
+        }
+
+        .openphone-cta:hover {
+            background: #00b894 !important;
+            box-shadow: 0 8px 20px rgba(0, 212, 170, 0.4) !important;
         }
 
         .section-cta {
@@ -407,6 +434,16 @@ export default function Home() {
             .info-grid, .step-cards, .performance-cards {
                 grid-template-columns: 1fr;
             }
+
+            .hero-cta-container {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .hero-cta {
+                padding: 15px 30px;
+                font-size: 16px;
+            }
         }
       `}</style>
 
@@ -420,17 +457,23 @@ export default function Home() {
 
       <div className="main-container">
         <div className="hero-section">
-          <svg className="hero-logo" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-            <ellipse cx="50" cy="50" rx="30" ry="15" fill="none" stroke="#ff6b6b" strokeWidth="3" transform="rotate(45 50 50)"/>
-            <ellipse cx="50" cy="50" rx="30" ry="15" fill="none" stroke="#ff6b6b" strokeWidth="3" transform="rotate(-45 50 50)"/>
-          </svg>
-          
           <h1>Welcome to Agent Empowerment</h1>
           <p className="subtitle">Get set up to receive high-quality inbound insurance calls</p>
           
-          <a href="https://api.leadconnectorhq.com/widget/survey/XA49MJyuHMrPvgb2ZgLz" className="hero-cta">
-            Complete Onboarding Form
-          </a>
+          <div className="hero-cta-container">
+            <div className="hero-step">
+              <div className="hero-step-text">Step 1</div>
+              <a href="https://api.leadconnectorhq.com/widget/survey/XA49MJyuHMrPvgb2ZgLz" className="hero-cta">
+                Complete Onboarding Form
+              </a>
+            </div>
+            <div className="hero-step">
+              <div className="hero-step-text">Step 2</div>
+              <a href="https://my.openphone.com/signup?invite=369bc07b78cc85a544537baf8ec3b693" className="hero-cta openphone-cta" target="_blank">
+                Sign Up With OpenPhone
+              </a>
+            </div>
+          </div>
         </div>
 
         {/* Educational Video - Top Priority */}
@@ -440,7 +483,7 @@ export default function Home() {
             <div style={{background: 'rgba(255,255,255,0.1)', border: '2px solid rgba(255,255,255,0.3)', borderRadius: '16px', padding: '25px 40px', maxWidth: '600px', margin: '0 auto'}}>
               <div style={{fontSize: '48px', marginBottom: '15px'}}>▶️</div>
               <h3 style={{fontSize: '20px', marginBottom: '10px', color: 'white'}}>Complete Agent Setup Tutorial</h3>
-              <p style={{fontSize: '14px', marginBottom: '20px', opacity: '0.9'}}>Learn how to set up Kixie, Agent Empowerment CRM, and start receiving calls • 10 minutes</p>
+              <p style={{fontSize: '14px', marginBottom: '20px', opacity: '0.9'}}>Learn how to set up OpenPhone, Agent Empowerment CRM, and start receiving calls • 10 minutes</p>
               <a href="https://www.loom.com/share/2449c17c78184071a7faf663c143cd35" target="_blank" style={{display: 'inline-block', background: 'white', color: '#5865f2', padding: '15px 40px', borderRadius: '30px', fontSize: '16px', fontWeight: '600', textDecoration: 'none', transition: 'all 0.3s ease', boxShadow: '0 4px 15px rgba(0,0,0,0.2)'}}>
                 Watch Video Tutorial
               </a>
@@ -470,7 +513,7 @@ export default function Home() {
               <h3>⚡ Setup Process</h3>
               <ul className="checklist">
                 <li>Complete onboarding form</li>
-                <li>Receive invoice for system setup ($99)</li>
+                <li>Receive invoice for system setup ($100)</li>
                 <li>Account creation across all platforms</li>
                 <li>Receive login credentials within 1-2 days</li>
               </ul>
@@ -499,7 +542,7 @@ export default function Home() {
               <p>👉 <a href="#" className="email-link">Click Here to Complete</a></p>
               <p>Once you submit the form:</p>
               <ol style={{marginLeft: '20px'}}>
-                <li>You&apos;ll receive an <strong>invoice for your system setup</strong> ($99 - Kixie dialer)</li>
+                <li>You&apos;ll receive an <strong>invoice for your system setup</strong> ($100 - OpenPhone dialer)</li>
                 <li>After payment, we&apos;ll activate your setup within <strong>1-2 business days</strong></li>
               </ol>
             </div>
@@ -510,8 +553,8 @@ export default function Home() {
             <div className="billing-grid">
               <div className="billing-item">
                 <div className="billing-label">Setup Fee</div>
-                <div className="billing-amount">$99</div>
-                <div className="billing-label">Kixie Dialer</div>
+                <div className="billing-amount">$100</div>
+                <div className="billing-label">OpenPhone Dialer</div>
               </div>
               <div className="billing-item">
                 <div className="billing-label">Per Billable Call</div>
@@ -526,11 +569,11 @@ export default function Home() {
             </div>
           </div>
 
-          <h3 style={{fontSize: '20px', margin: '30px 0 10px', color: '#5865f2'}}>📧 Email #2: Kixie Setup & Login Instructions</h3>
+          <h3 style={{fontSize: '20px', margin: '30px 0 10px', color: '#5865f2'}}>📧 Email #2: OpenPhone Setup & Login Instructions</h3>
           <p style={{color: '#666', marginBottom: '20px'}}>After completing the form and payment, you'll receive:</p>
           <div className="email-preview">
             <div className="email-header">
-              <div className="email-subject">Your Campaign is Ready - Kixie Setup Instructions</div>
+              <div className="email-subject">Your Campaign is Ready - OpenPhone Setup Instructions</div>
               <div className="email-meta">
                 <strong>Agent EMP - Americhoice</strong> via mg.msgsndr.org • Wed, Jul 2, 1:26 PM
               </div>
@@ -538,16 +581,15 @@ export default function Home() {
             <div className="email-body">
               <p><strong>Dear Shawn,</strong></p>
               <p>Welcome! Your <strong>live call campaign is being created</strong>, and you&apos;ll begin receiving inbound Final Expense and Life Insurance calls within the next <strong>3-5 business days</strong>.</p>
-              <p><span className="email-check">✅</span> <strong>Install Kixie Chrome Extension</strong></p>
-              <p>👉 <a href="#" className="email-link">chrome.google.com/webstore/detail/kixie-powercall-sales-dial/</a></p>
+              <p><span className="email-check">✅</span> <strong>Install OpenPhone App</strong></p>
+              <p>👉 <a href="#" className="email-link">openphone.com/download</a></p>
               <p><span className="email-check">✅</span> <strong>Login Credentials</strong></p>
               <ul style={{marginLeft: '20px'}}>
                 <li>Email: <strong>Your email</strong></li>
                 <li>Password: <code style={{background: '#f0f0f0', padding: '2px 6px', borderRadius: '4px'}}>Leads123@@</code></li>
               </ul>
-              <p><span className="email-check">✅</span> <strong>Set Your Status to &quot;Available&quot;</strong></p>
               <p style={{background: '#fff3cd', borderLeft: '4px solid #ffc107', padding: '10px', margin: '10px 0'}}>
-                <strong>⚠️ You must be marked Available in BOTH Kixie AND Agent Empowerment (AgentEmp Go-High-Level CRM) to receive calls.</strong>
+                <strong>⚠️ CRITICAL LOGIN ORDER: Always login to Agent Empowerment (AgentEmp) FIRST, then OpenPhone. Ensure you are logged in to BOTH systems to receive calls.</strong>
               </p>
               <p style={{marginTop: '15px', fontStyle: 'italic', color: '#666'}}>Note: Ringba login credentials will be sent in a separate email.</p>
             </div>
@@ -564,35 +606,34 @@ export default function Home() {
           <div className="warning-box">
             <span className="warning-icon">⚠️</span>
             <div>
-              <strong>Important:</strong> Follow these steps in exact order. The sequence matters for proper API synchronization and call routing.
+              <strong>CRITICAL:</strong> ALWAYS login to Agent Empowerment (Agent EMP) FIRST, then OpenPhone. This exact sequence is essential for proper API synchronization and call routing.
               <br/><br/>
-              <strong>Critical:</strong> Use the SAME email address for all three platforms (Kixie, Agent Empowerment CRM, and Ringba) to ensure the systems are properly linked.
+              <strong>Important:</strong> Agent EMP must be your first login every day before accessing any other platform. Use the SAME email address for all three platforms (Agent EMP, OpenPhone, and Ringba) to ensure the systems are properly linked.
             </div>
           </div>
 
           <div className="step-cards">
             <div className="step-card">
               <div className="step-number-badge">1</div>
-              <div className="step-icon">📞</div>
-              <h3>Log in to Kixie</h3>
-              <p>Open the Kixie PowerCall Chrome extension</p>
-              <p style={{marginTop: '10px'}}><strong>Set status to &quot;Available&quot;</strong></p>
+              <div className="step-icon">💼</div>
+              <h3>🚨 FIRST: Log in to Agent Empowerment</h3>
+              <p><strong>ALWAYS START HERE!</strong> Access the CRM at crm.agentemp.com</p>
+              <p style={{marginTop: '10px'}}><strong>Use your provided credentials - This MUST be your first login</strong></p>
             </div>
 
             <div className="step-card">
               <div className="step-number-badge">2</div>
-              <div className="step-icon">💼</div>
-              <h3>Log in to Agent Empowerment</h3>
-              <p>Access the CRM at crm.agentemp.com</p>
-              <p style={{marginTop: '10px'}}><strong>Use your provided credentials</strong></p>
+              <div className="step-icon">📞</div>
+              <h3>THEN: Log in to OpenPhone</h3>
+              <p>Make sure you are logged in and your audio settings are working</p>
             </div>
 
             <div className="step-card">
               <div className="step-number-badge">3</div>
               <div className="step-icon">🟢</div>
-              <h3>Set Availability to Online</h3>
-              <p>Click &quot;Calls Availability&quot; in left menu</p>
-              <p style={{marginTop: '10px'}}><strong>Toggle status to &quot;Online&quot;</strong></p>
+              <h3>Set Availability to Online in Agent EMP</h3>
+              <p><strong>In Agent Empowerment:</strong> Click &quot;Calls Availability&quot; in left menu</p>
+              <p style={{marginTop: '10px'}}><strong>Toggle status to &quot;Online&quot; - This is done primarily in Agent EMP</strong></p>
             </div>
           </div>
         </div>
