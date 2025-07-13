@@ -160,7 +160,7 @@ export default function Home() {
               <h3>⚡ Setup Process</h3>
               <ul className="checklist">
                 <li>Complete onboarding form</li>
-                <li>Receive invoice for system setup ($100) (Helps us pay nerds to connect the cheaper better phone to GHL and give you a CRM its one time and eventually will include support is what I understand)</li>
+                <li>Receive invoice for system setup ($100) <small style={{fontSize: '12px', fontWeight: 'normal'}}>(Helps us pay nerds to connect the cheaper better phone to GHL and give you a CRM its one time and eventually will include support is what I understand)</small></li>
                 <li>Account creation across all platforms</li>
                 <li>Receive login credentials within 1-2 days</li>
               </ul>
@@ -189,7 +189,7 @@ export default function Home() {
               <p>👉 <a href="#" className="email-link">Click Here to Complete</a></p>
               <p>Once you submit the form:</p>
               <ol style={{marginLeft: '20px'}}>
-                <li>You&apos;ll receive an <strong>invoice for your system setup</strong> ($100 - OpenPhone dialer) (Helps us pay nerds to connect the cheaper better phone to GHL and give you a CRM its one time and eventually will include support is what I understand)</li>
+                <li>You&apos;ll receive an <strong>invoice for your system setup</strong> ($100 - OpenPhone dialer) <small style={{fontSize: '12px', fontWeight: 'normal'}}>(Helps us pay nerds to connect the cheaper better phone to GHL and give you a CRM its one time and eventually will include support is what I understand)</small></li>
                 <li>After payment, we&apos;ll activate your setup within <strong>1-2 business days</strong></li>
               </ol>
             </div>
@@ -200,7 +200,7 @@ export default function Home() {
             <div className="billing-grid">
               <div className="billing-item">
                 <div className="billing-label">Setup Fee</div>
-                <div className="billing-amount">$100 (Helps us pay nerds to connect the cheaper better phone to GHL and give you a CRM its one time and eventually will include support is what I understand)</div>
+                <div className="billing-amount">$100 <small style={{fontSize: '12px', fontWeight: 'normal'}}>(Helps us pay nerds to connect the cheaper better phone to GHL and give you a CRM its one time and eventually will include support is what I understand)</small></div>
                 <div className="billing-label">OpenPhone Dialer</div>
               </div>
               <div className="billing-item">
