@@ -18,16 +18,9 @@ export const metadata: Metadata = {
   keywords: "insurance agent, final expense, life insurance, inbound calls, agent onboarding, insurance leads",
   authors: [{ name: "Agent EMP - Americhoice" }],
   icons: {
-    icon: [
-      { url: "/favicon.svg", type: "image/svg+xml" },
-      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
-      { url: "/favicon.ico", sizes: "any" },
-    ],
+    icon: "/favicon.svg",
     shortcut: "/favicon.svg",
-    apple: [
-      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-    ],
+    apple: "/favicon-32x32.png",
   },
   openGraph: {
     title: "Agent Empowerment - Insurance Agent Onboarding",
