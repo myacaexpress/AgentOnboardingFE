@@ -16,9 +16,14 @@ export default function Home() {
           <h1>Welcome to Agent Empowerment</h1>
           <p className="subtitle">Get set up to receive high-quality inbound insurance calls</p>
           
-          <a href="https://api.leadconnectorhq.com/widget/survey/XA49MJyuHMrPvgb2ZgLz" className="hero-cta">
-            Complete Onboarding Form
-          </a>
+          <div className="hero-cta-container">
+            <a href="https://api.leadconnectorhq.com/widget/survey/XA49MJyuHMrPvgb2ZgLz" className="hero-cta">
+              Complete Onboarding Form
+            </a>
+            <a href="https://my.openphone.com/signup?invite=369bc07b78cc85a544537baf8ec3b693" className="hero-cta openphone-cta" target="_blank">
+              Sign Up With OpenPhone
+            </a>
+          </div>
         </div>
 
         {/* Educational Video - Top Priority */}
@@ -28,7 +33,7 @@ export default function Home() {
             <div className="video-tutorial-card">
               <div className="video-tutorial-icon">▶️</div>
               <h3 className="video-tutorial-heading">Complete Agent Setup Tutorial</h3>
-              <p className="video-tutorial-description">Learn how to set up Kixie, Agent Empowerment CRM, and start receiving calls • 10 minutes</p>
+              <p className="video-tutorial-description">Learn how to set up OpenPhone, Agent Empowerment CRM, and start receiving calls • 10 minutes</p>
               <a href="https://www.loom.com/share/2449c17c78184071a7faf663c143cd35" target="_blank" className="video-tutorial-button">
                 Watch Video Tutorial
               </a>
@@ -178,7 +183,7 @@ export default function Home() {
               <p>👉 <a href="#" className="email-link">Click Here to Complete</a></p>
               <p>Once you submit the form:</p>
               <ol style={{marginLeft: '20px'}}>
-                <li>You&apos;ll receive an <strong>invoice for your system setup</strong> ($100 - Kixie dialer)</li>
+                <li>You&apos;ll receive an <strong>invoice for your system setup</strong> ($100 - OpenPhone dialer)</li>
                 <li>After payment, we&apos;ll activate your setup within <strong>1-2 business days</strong></li>
               </ol>
             </div>
@@ -190,7 +195,7 @@ export default function Home() {
               <div className="billing-item">
                 <div className="billing-label">Setup Fee</div>
                 <div className="billing-amount">$100</div>
-                <div className="billing-label">Kixie Dialer</div>
+                <div className="billing-label">OpenPhone Dialer</div>
               </div>
               <div className="billing-item">
                 <div className="billing-label">Per Billable Call</div>
@@ -205,11 +210,11 @@ export default function Home() {
             </div>
           </div>
 
-          <h3 style={{fontSize: '20px', margin: '30px 0 10px', color: '#5865f2'}}>📧 Email #2: Kixie Setup & Login Instructions</h3>
+          <h3 style={{fontSize: '20px', margin: '30px 0 10px', color: '#5865f2'}}>📧 Email #2: OpenPhone Setup & Login Instructions</h3>
           <p style={{color: '#666', marginBottom: '20px'}}>After completing the form and payment, you'll receive:</p>
           <div className="email-preview">
             <div className="email-header">
-              <div className="email-subject">Your Campaign is Ready - Kixie Setup Instructions</div>
+              <div className="email-subject">Your Campaign is Ready - OpenPhone Setup Instructions</div>
               <div className="email-meta">
                 <strong>Agent EMP - Americhoice</strong> via mg.msgsndr.org • Wed, Jul 2, 1:26 PM
               </div>
@@ -217,16 +222,15 @@ export default function Home() {
             <div className="email-body">
               <p><strong>Dear Shawn,</strong></p>
               <p>Welcome! Your <strong>live call campaign is being created</strong>, and you&apos;ll begin receiving inbound Final Expense and Life Insurance calls within the next <strong>3-5 business days</strong>.</p>
-              <p><span className="email-check">✅</span> <strong>Install Kixie Chrome Extension</strong></p>
-              <p>👉 <a href="#" className="email-link">chrome.google.com/webstore/detail/kixie-powercall-sales-dial/</a></p>
+              <p><span className="email-check">✅</span> <strong>Install OpenPhone App</strong></p>
+              <p>👉 <a href="#" className="email-link">openphone.com/download</a></p>
               <p><span className="email-check">✅</span> <strong>Login Credentials</strong></p>
               <ul style={{marginLeft: '20px'}}>
                 <li>Email: <strong>Your email</strong></li>
                 <li>Password: <code style={{background: '#f0f0f0', padding: '2px 6px', borderRadius: '4px'}}>Leads123@@</code></li>
               </ul>
-              <p><span className="email-check">✅</span> <strong>Set Your Status to &quot;Available&quot;</strong></p>
               <p style={{background: '#fff3cd', borderLeft: '4px solid #ffc107', padding: '10px', margin: '10px 0'}}>
-                <strong>⚠️ CRITICAL LOGIN ORDER: Always login to Agent Empowerment (AgentEmp) FIRST, then Kixie. You must be marked Available in BOTH systems to receive calls.</strong>
+                <strong>⚠️ CRITICAL LOGIN ORDER: Always login to Agent Empowerment (AgentEmp) FIRST, then OpenPhone. Ensure you are logged in to BOTH systems to receive calls.</strong>
               </p>
               <p style={{marginTop: '15px', fontStyle: 'italic', color: '#666'}}>Note: Ringba login credentials will be sent in a separate email.</p>
             </div>
@@ -243,9 +247,9 @@ export default function Home() {
           <div className="warning-box">
             <span className="warning-icon">⚠️</span>
             <div>
-              <strong>CRITICAL:</strong> ALWAYS login to Agent Empowerment (Agent EMP) FIRST, then Kixie. This exact sequence is essential for proper API synchronization and call routing.
+              <strong>CRITICAL:</strong> ALWAYS login to Agent Empowerment (Agent EMP) FIRST, then OpenPhone. This exact sequence is essential for proper API synchronization and call routing.
               <br/><br/>
-              <strong>Important:</strong> Agent EMP must be your first login every day before accessing any other platform. Use the SAME email address for all three platforms (Agent EMP, Kixie, and Ringba) to ensure the systems are properly linked.
+              <strong>Important:</strong> Agent EMP must be your first login every day before accessing any other platform. Use the SAME email address for all three platforms (Agent EMP, OpenPhone, and Ringba) to ensure the systems are properly linked.
             </div>
           </div>
 
@@ -261,9 +265,8 @@ export default function Home() {
             <div className="step-card">
               <div className="step-number-badge">2</div>
               <div className="step-icon">📞</div>
-              <h3>THEN: Log in to Kixie</h3>
-              <p>Open the Kixie PowerCall Chrome extension</p>
-              <p style={{marginTop: '10px'}}><strong>Set status to &quot;Available&quot;</strong></p>
+              <h3>THEN: Log in to OpenPhone</h3>
+              <p>Make sure you are logged in and your audio settings are working</p>
             </div>
 
             <div className="step-card">

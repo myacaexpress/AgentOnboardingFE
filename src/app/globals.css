@@ -67,6 +67,14 @@ h1 {
   margin-bottom: 40px;
 }
 
+.hero-cta-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .hero-cta {
   display: inline-block;
   padding: 18px 50px;
@@ -84,6 +92,16 @@ h1 {
   background: #4752c4;
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(88, 101, 242, 0.4);
+}
+
+.openphone-cta {
+  background: #00d4aa !important;
+  box-shadow: 0 5px 15px rgba(0, 212, 170, 0.3) !important;
+}
+
+.openphone-cta:hover {
+  background: #00b894 !important;
+  box-shadow: 0 8px 20px rgba(0, 212, 170, 0.4) !important;
 }
 
 .section-cta {
@@ -670,6 +688,11 @@ p, div, span {
   .subtitle {
     font-size: 16px;
     margin-bottom: 30px;
+  }
+
+  .hero-cta-container {
+    flex-direction: column;
+    gap: 15px;
   }
 
   .hero-cta {
