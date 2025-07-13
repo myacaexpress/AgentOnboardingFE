@@ -17,12 +17,18 @@ export default function Home() {
           <p className="subtitle">Get set up to receive high-quality inbound insurance calls</p>
           
           <div className="hero-cta-container">
-            <a href="https://api.leadconnectorhq.com/widget/survey/XA49MJyuHMrPvgb2ZgLz" className="hero-cta">
-              Complete Onboarding Form
-            </a>
-            <a href="https://my.openphone.com/signup?invite=369bc07b78cc85a544537baf8ec3b693" className="hero-cta openphone-cta" target="_blank">
-              Sign Up With OpenPhone
-            </a>
+            <div className="hero-step">
+              <div className="hero-step-number">1</div>
+              <a href="https://api.leadconnectorhq.com/widget/survey/XA49MJyuHMrPvgb2ZgLz" className="hero-cta">
+                Complete Onboarding Form
+              </a>
+            </div>
+            <div className="hero-step">
+              <div className="hero-step-number">2</div>
+              <a href="https://my.openphone.com/signup?invite=369bc07b78cc85a544537baf8ec3b693" className="hero-cta openphone-cta" target="_blank">
+                Sign Up With OpenPhone
+              </a>
+            </div>
           </div>
         </div>
 
